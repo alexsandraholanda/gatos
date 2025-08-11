@@ -1,6 +1,6 @@
 html{
     font-family: Helvetica;
-    background-color: #ddd;
+    background-color: #f57a94;
 }
 
 .container{
@@ -21,17 +21,29 @@ html{
 }
 
 .main-title{
-    font-size: 40px;
+    font-size: 50px;
+    background-color: #f57a94;
+    padding: 30px;
 }
 
 .main-paragraph{
     font-style: italic;
+    font-size: 20px;
+    padding: 10px;
 }
 
 .featured-image{
     text-align: center;
     margin-top: 30px;
+    font-weight: bold;
 }
+
+.foto-gato {
+    width: 400px;
+    border: 2px solid #130609;
+    border-radius: 10px; 
+}
+
 
 .biography-container{
     padding: 25px 0;
@@ -40,14 +52,26 @@ html{
     border-bottom:  1px dashed;
 }
 
+.foto-redonda {
+    width: 150px;
+    height: auto;
+}
+
+.img-bold blockquote{
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #ddd;
+    padding: 20px;
+}
+
 .quotes-container{
     background-color: #ddd;
-    padding: 30px;
+    padding: 20px;
 }
 
 .quotes-container blockquote{
     font-weight: bold;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .quotes-container p {
@@ -63,10 +87,14 @@ html{
 
 .curiosities-container li {
     height: 30px;
+    font-weight: bold;
 }
 
 .img-bold{
     font-weight: bold;
     text-align: center;
+    margin-top: 30px;
+    text-align: center;
 }
+
 
